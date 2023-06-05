@@ -17,7 +17,7 @@ connect_button.addEventListener("click", (e) => {
             connect_button.classList.add("status_connected");
             connect_button.classList.add("loader-status");
             intervalId = setInterval(displayTime, 1000);
-        }, 5000);
+        }, 20000);
         status_connection = true;
     } else 
     {
